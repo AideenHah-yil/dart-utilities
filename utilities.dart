@@ -1,14 +1,20 @@
-int add(int a, int b){
- int sum = a + b;
-   return sum;
+// int add(int a, int b){
+//  int sum = a + b;
+//    return sum;
 
-}
+// }
 
-void main() {
-    int a = 10;
-    int b = 30;
+// void main() {
+//     int a = 10;
+//     int b = 30;
 
-    int sum = add(a, b);
-    print(sum);
-}
+//     int sum = add(a, b);
+//     print(sum);
+// }
   
+
+  void main() {
+     for (int i = 1; i <= 10 ; i++) {
+        print(i);
+     }
+  }
