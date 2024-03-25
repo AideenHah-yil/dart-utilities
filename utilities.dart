@@ -1,3 +1,5 @@
+import 'dart:io';
+
 // int add(int a, int b){
 //  int sum = a + b;
 //    return sum;
@@ -44,11 +46,27 @@
 //     }
 // }
 
+// void main() {
+//     var num = 11;
+//     if (num % 2 == 0) {
+//         print("'$num' is even");
+//     }else if (num % 2 == 1) {
+//         print("'$num' is odd");
+//     }    
+// }
+
+
+
 void main() {
-    var num = 11;
-    if (num % 2 == 0) {
-        print("'$num' is even");
-    }else if (num % 2 == 1) {
-        print("'$num' is odd");
-    }    
+    print("Enter your numbers separated by spaces:");
+
+    String input = stdin.readLineSync()!;
+
+    List<String> numbersAsString = input.split(" ");
+
+    List<int> numbers = numbersAsString.map(int.parse).toList();
+
+    int largestNumber = numbers.reduce((value, element) => value > element ? value : element);
+
+    print("Largest number is $largestNumber");
 }
