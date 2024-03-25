@@ -70,3 +70,16 @@ void main() {
 
     print("Largest number is $largestNumber");
 }
+
+
+void main() {
+try {
+    int result = 20 ~/ 0;
+
+    print(result);
+} catch (e) { 
+    print("An error occurred");
+}
+
+
+}
