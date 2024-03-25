@@ -24,22 +24,22 @@ void main() {
     String input = "a";
     switch (input) {
         case "a":
-        print("The first vowel is:" + vowels[0]);
+        print("'$input' is a vowel");
         break;
         case "e":
-        print("The second vowel is:" + vowels[1]);
+        print("$input' is a vowel");
         break;
         case "i":
-        print("The third vowel is:" + vowels[2]);
+        print("$input' is a vowel");
         break;
         case "o":
-        print("The fourth vowel is:" + vowels[3]);
+        print("$input' is a vowel");
         break;
         case "u":
-        print("The fifth vowel is:" + vowels[4]);
+        print("$input' is a vowel");
         break;
         default:
-        print("No vowels");
+        print("$input' is not a vowel");
         break;
 
     }
