@@ -20,21 +20,22 @@
 //   }
 
 void main() {
-    String vowels = ["a", "e", "i","o", "u"]
-    switch (vowels) {
-        case 1:
+    List<String> vowels = ["a", "e", "i","o", "u"];
+    String input = "a";
+    switch (input) {
+        case "a":
         print("The first vowel is:" + vowels[0]);
         break;
-        case 2:
+        case "e":
         print("The second vowel is:" + vowels[1]);
         break;
-        case 3:
+        case "i":
         print("The third vowel is:" + vowels[2]);
         break;
-        case 4:
+        case "o":
         print("The fourth vowel is:" + vowels[3]);
         break;
-        case 5:
+        case "u":
         print("The fifth vowel is:" + vowels[4]);
         break;
         default:
