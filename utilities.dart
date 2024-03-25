@@ -19,28 +19,36 @@
 //      }
 //   }
 
-void main() {
-    List<String> vowels = ["a", "e", "i","o", "u"];
-    String input = "a";
-    switch (input) {
-        case "a":
-        print("'$input' is a vowel");
-        break;
-        case "e":
-        print("$input' is a vowel");
-        break;
-        case "i":
-        print("$input' is a vowel");
-        break;
-        case "o":
-        print("$input' is a vowel");
-        break;
-        case "u":
-        print("$input' is a vowel");
-        break;
-        default:
-        print("$input' is not a vowel");
-        break;
+// void main() {
+//     List<String> vowels = ["a", "e", "i","o", "u"];
+//     String input = "a";
+//     switch (input) {
+//         case "a":
+//         print("'$input' is a vowel");
+//         break;
+//         case "e":
+//         print("$input' is a vowel");
+//         break;
+//         case "i":
+//         print("$input' is a vowel");
+//         break;
+//         case "o":
+//         print("$input' is a vowel");
+//         break;
+//         case "u":
+//         print("$input' is a vowel");
+//         break;
+//         default:
+//         print("$input' is not a vowel");
+//         break;
+//     }
+// }
 
-    }
+void main() {
+    var num = 11;
+    if (num % 2 == 0) {
+        print("'$num' is even");
+    }else if (num % 2 == 1) {
+        print("'$num' is odd");
+    }    
 }
